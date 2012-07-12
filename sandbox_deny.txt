@@ -1,0 +1,76 @@
+com.apple.qtkits(49570) deny file-read-data /Library/Components/XiphQT.component/Contents/MacOS/XiphQT/..namedfork/rsrc
+
+Process:         com.apple.qtkits [49570]
+Path:            /System/Library/XPCServices/com.apple.qtkitserver.xpc/Contents/MacOS/com.apple.qtkitserver
+Load Address:    0x52000
+Identifier:      com.apple.qtkitserver
+Version:         1 (1.0)
+Build Info:      5-QuickTime~2599000000000000
+Code Type:       i386 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2012-07-12 11:52:43.809 -0600
+OS Version:      Mac OS X 10.8 (12A256)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x929ff76e __open + 10
+1   CarbonCore                    	0x94cfeb6e FSMount::_openfork(char const*, unsigned char, unsigned long, unsigned short, _filesec*, int*, int*, FSOpenForkInfo*) + 686
+2   CarbonCore                    	0x94cff64f FSMount::openforkcoreDefault(unsigned long, unsigned long, char const*, char const*, unsigned long, unsigned char, unsigned char, FSOpenForkInfo*, unsigned short, _filesec*, unsigned long, short*, unsigned long*) + 913
+3   CarbonCore                    	0x94d0048c FSMount::openfork(unsigned long, unsigned long, char const*, char const*, unsigned long, unsigned char, unsigned char, FSOpenForkInfo*, unsigned short, _filesec*, unsigned long, short*, unsigned long*) + 652
+4   CarbonCore                    	0x94c3400b PBOpenForkSync + 581
+5   CarbonCore                    	0x94c33db2 FSOpenFork + 41
+6   CarbonCore                    	0x94c33a23 RMOpenResourceFileRef + 279
+7   CarbonCore                    	0x94c6a8d0 CMOpenResourcesMapped(__CFURL const*, unsigned char) + 103
+8   CarbonCore                    	0x94c6a7dc CMOpenBundleResourceFilesMapped + 712
+9   CarbonCore                    	0x94c6d412 _cf_openResourceFork(rtFile*, CMCombinedResRef*) + 27
+10  CarbonCore                    	0x94c7178f OpenMappedComponentFile(ComponentRecord*, CMCombinedResRef*, PerOpenedResFile**) + 75
+11  CarbonCore                    	0x94c71d05 loadComponentResource(RegisteredComponent*, unsigned long, short, char***, CMCombinedResRef*, unsigned char) + 411
+12  CarbonCore                    	0x94c72259 internalGetComponentPublicResource(RegisteredComponent*, unsigned long, short, char***, CMCombinedResRef*) + 281
+13  CarbonCore                    	0x94c725fb GetComponentPublicResourceList + 597
+14  QuickTime                     	0x9103e0c0 GetMovieImporterForDataRef_priv + 2625
+15  QuickTime                     	0x9103c779 NewMovieFromDataRefPriv_priv + 5012
+16  QuickTime                     	0x910ee5be NewMovieFromDataRef_priv + 54
+17  QuickTime                     	0x9121001e NewMovieFromDataRef + 51
+18  QuickTimeImporters            	0x96c3d117 EatSlowMovieIdle + 655
+19  CarbonCore                    	0x94d0892f callComponentStorage_444 + 32
+20  CarbonCore                    	0x94cf9acf CallComponentFunctionCommonWithStorage(char**, ComponentParameters*, long (*)(), unsigned long) + 45
+21  CarbonCore                    	0x94cf9b0f CallComponentFunctionWithStorageProcInfo + 30
+22  QuickTimeImporters            	0x96c3c9ae EatSlowMovieComponentDispatch + 81
+23  CarbonCore                    	0x94c73b1e CallComponent + 151
+24  CarbonCore                    	0x94c73b78 CallComponentDispatch + 29
+25  QuickTime                     	0x91221cef MovieImportIdle + 49
+26  QuickTime                     	0x9106a95d TaskMovie_priv + 5352
+27  QuickTimeComponents           	0x919d29aa
+28  QuickTimeComponents           	0x919dece5
+29  QuickTimeComponents           	0x919d0f55
+30  CarbonCore                    	0x94cf9acf CallComponentFunctionCommonWithStorage(char**, ComponentParameters*, long (*)(), unsigned long) + 45
+31  CarbonCore                    	0x94cf9b0f CallComponentFunctionWithStorageProcInfo + 30
+32  QuickTimeComponents           	0x919cf9e2 _MCComponentDispatch + 81
+33  CarbonCore                    	0x94c73b1e CallComponent + 151
+34  CarbonCore                    	0x94c73b78 CallComponentDispatch + 29
+35  QuickTime                     	0x9106910f MCIdle + 37
+36  QTKit                         	0x92395dad -[QTMovie_QuickTime idle] + 1165
+37  QTKit                         	0x92395788 +[QTMovie_QuickTime idleAllMovies:] + 340
+38  Foundation                    	0x93607914 __NSFireTimer + 117
+39  CoreFoundation                	0x927820d6 __CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ + 22
+40  CoreFoundation                	0x92781a75 __CFRunLoopDoTimer + 709
+41  CoreFoundation                	0x92766892 __CFRunLoopRun + 1730
+42  CoreFoundation                	0x92765d6a CFRunLoopRunSpecific + 378
+43  CoreFoundation                	0x92775781 CFRunLoopRun + 129
+44  XPCService                    	0x00099d13 xpc_service_main + 460
+45  com.apple.qtkitserver         	0x0005f27e main + 158
+46  libdyld.dylib                 	0x95f14725 start + 0
+
+Binary Images:
+           0x52000 -            0x80ffd  com.apple.qtkitserver (1.0 - 1) <EA403AD3-CEBB-3CCA-A5E7-B2F8BECA0636> /System/Library/XPCServices/com.apple.qtkitserver.xpc/Contents/MacOS/com.apple.qtkitserver
+           0x98000 -            0x9ffff  com.apple.XPCService (2.0 - 1) <91BC7453-006F-30E0-AE08-8F82855CE5F8> /System/Library/PrivateFrameworks/XPCService.framework/Versions/A/XPCService
+        0x9101c000 -         0x91298ff7  com.apple.QuickTime (7.7.1 - 2599) <C1EAA16D-C51E-3A85-B114-6C7DDCEC864C> /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime
+        0x9132f000 -         0x92067fef  com.apple.QuickTimeComponents.component (7.7.1 - 2599) <1AE9A55E-3486-3A90-A95D-3F5E1C6AF457> /System/Library/QuickTime/QuickTimeComponents.component/Contents/MacOS/QuickTimeComponents
+        0x92350000 -         0x924adffb  com.apple.QTKit (7.7.1 - 2599) <78806D5A-A983-3C4C-A151-2AEF28779358> /System/Library/Frameworks/QTKit.framework/Versions/A/QTKit
+        0x9272f000 -         0x92916ffb  com.apple.CoreFoundation (6.8 - 743) <B21C81FE-3ED6-3487-B243-FB11291D9496> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+        0x929eb000 -         0x92a05ffc  libsystem_kernel.dylib (2050.7.7) <D32EA9C8-B329-3E15-B5DD-637007566AF1> /usr/lib/system/libsystem_kernel.dylib
+        0x9358e000 -         0x938abfff  com.apple.Foundation (6.8 - 945) <B6F00754-C3F7-3E33-B708-CCEA2AA3E969> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+        0x94c15000 -         0x94f1afff  com.apple.CoreServices.CarbonCore (1037 - 1037) <92494ADA-2ED1-3141-81B9-23F2C27E779C> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+        0x95f12000 -         0x95f14fff  libdyld.dylib (210.2.3) <05D6FF2A-F09B-309D-95F7-7AF10259C707> /usr/lib/system/libdyld.dylib
+        0x96c37000 -         0x96d47ffb  com.apple.QuickTimeImporters.component (7.7.1 - 2599) <CF2ACD4E-EC81-371A-82B8-EB812DB195D8> /System/Library/QuickTime/QuickTimeImporters.component/Contents/MacOS/QuickTimeImporters
