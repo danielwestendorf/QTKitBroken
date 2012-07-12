@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825F7A0C15AF490700AA023A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825F7A0B15AF490700AA023A /* Cocoa.framework */; };
+		825F7A1615AF490700AA023A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 825F7A1415AF490700AA023A /* InfoPlist.strings */; };
+		825F7A1815AF490700AA023A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F7A1715AF490700AA023A /* main.m */; };
+		825F7A1C15AF490700AA023A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 825F7A1A15AF490700AA023A /* Credits.rtf */; };
+		825F7A1F15AF490700AA023A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F7A1E15AF490700AA023A /* AppDelegate.m */; };
+		825F7A2215AF490700AA023A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825F7A2015AF490700AA023A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		825F7A0715AF490700AA023A /* QTKitBroken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTKitBroken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825F7A0B15AF490700AA023A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		825F7A0E15AF490700AA023A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		825F7A0F15AF490700AA023A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		825F7A1015AF490700AA023A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		825F7A1315AF490700AA023A /* QTKitBroken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QTKitBroken-Info.plist"; sourceTree = "<group>"; };
+		825F7A1515AF490700AA023A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		825F7A1715AF490700AA023A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		825F7A1915AF490700AA023A /* QTKitBroken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QTKitBroken-Prefix.pch"; sourceTree = "<group>"; };
+		825F7A1B15AF490700AA023A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		825F7A1D15AF490700AA023A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		825F7A1E15AF490700AA023A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		825F7A2115AF490700AA023A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825F7A0415AF490700AA023A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825F7A0C15AF490700AA023A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825F79FC15AF490700AA023A = {
+			isa = PBXGroup;
+			children = (
+				825F7A1115AF490700AA023A /* QTKitBroken */,
+				825F7A0A15AF490700AA023A /* Frameworks */,
+				825F7A0815AF490700AA023A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825F7A0815AF490700AA023A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825F7A0715AF490700AA023A /* QTKitBroken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825F7A0A15AF490700AA023A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825F7A0B15AF490700AA023A /* Cocoa.framework */,
+				825F7A0D15AF490700AA023A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825F7A0D15AF490700AA023A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825F7A0E15AF490700AA023A /* AppKit.framework */,
+				825F7A0F15AF490700AA023A /* CoreData.framework */,
+				825F7A1015AF490700AA023A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		825F7A1115AF490700AA023A /* QTKitBroken */ = {
+			isa = PBXGroup;
+			children = (
+				825F7A1D15AF490700AA023A /* AppDelegate.h */,
+				825F7A1E15AF490700AA023A /* AppDelegate.m */,
+				825F7A2015AF490700AA023A /* MainMenu.xib */,
+				825F7A1215AF490700AA023A /* Supporting Files */,
+			);
+			path = QTKitBroken;
+			sourceTree = "<group>";
+		};
+		825F7A1215AF490700AA023A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				825F7A1315AF490700AA023A /* QTKitBroken-Info.plist */,
+				825F7A1415AF490700AA023A /* InfoPlist.strings */,
+				825F7A1715AF490700AA023A /* main.m */,
+				825F7A1915AF490700AA023A /* QTKitBroken-Prefix.pch */,
+				825F7A1A15AF490700AA023A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825F7A0615AF490700AA023A /* QTKitBroken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825F7A2515AF490700AA023A /* Build configuration list for PBXNativeTarget "QTKitBroken" */;
+			buildPhases = (
+				825F7A0315AF490700AA023A /* Sources */,
+				825F7A0415AF490700AA023A /* Frameworks */,
+				825F7A0515AF490700AA023A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTKitBroken;
+			productName = QTKitBroken;
+			productReference = 825F7A0715AF490700AA023A /* QTKitBroken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825F79FE15AF490700AA023A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Westendorf";
+			};
+			buildConfigurationList = 825F7A0115AF490700AA023A /* Build configuration list for PBXProject "QTKitBroken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 825F79FC15AF490700AA023A;
+			productRefGroup = 825F7A0815AF490700AA023A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825F7A0615AF490700AA023A /* QTKitBroken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825F7A0515AF490700AA023A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825F7A1615AF490700AA023A /* InfoPlist.strings in Resources */,
+				825F7A1C15AF490700AA023A /* Credits.rtf in Resources */,
+				825F7A2215AF490700AA023A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825F7A0315AF490700AA023A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825F7A1815AF490700AA023A /* main.m in Sources */,
+				825F7A1F15AF490700AA023A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		825F7A1415AF490700AA023A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825F7A1515AF490700AA023A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		825F7A1A15AF490700AA023A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825F7A1B15AF490700AA023A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		825F7A2015AF490700AA023A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825F7A2115AF490700AA023A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825F7A2315AF490700AA023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		825F7A2415AF490700AA023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		825F7A2615AF490700AA023A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QTKitBroken/QTKitBroken-Prefix.pch";
+				INFOPLIST_FILE = "QTKitBroken/QTKitBroken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		825F7A2715AF490700AA023A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QTKitBroken/QTKitBroken-Prefix.pch";
+				INFOPLIST_FILE = "QTKitBroken/QTKitBroken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825F7A0115AF490700AA023A /* Build configuration list for PBXProject "QTKitBroken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825F7A2315AF490700AA023A /* Debug */,
+				825F7A2415AF490700AA023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825F7A2515AF490700AA023A /* Build configuration list for PBXNativeTarget "QTKitBroken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825F7A2615AF490700AA023A /* Debug */,
+				825F7A2715AF490700AA023A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825F79FE15AF490700AA023A /* Project object */;
+}
