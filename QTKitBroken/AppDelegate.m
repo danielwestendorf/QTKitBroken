@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <QTKit/QTKit.h>
 
 @implementation AppDelegate
 
@@ -17,7 +18,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSURL *mp3 = [NSURL URLWithString: @"http://www.coon-and-friends.com/song.mp3" ];
+    QTMovie *movie = [[QTMovie alloc] initWithURL:mp3 error:nil];
+    [movie autoplay];
 }
 
 @end
